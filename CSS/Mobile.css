@@ -1,0 +1,382 @@
+@media (max-width:800px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        background-image: url(/FundoLight1.jpg);
+        background-attachment: fixed;
+        background-position: 10% 20%;
+        background-size: 300%;
+        height: 100vh;
+    }
+    #Noturno{
+        display: none;
+    }
+    header{
+        display: flex;
+        border-bottom: 1px black solid;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        height: 6vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    #Logo{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-image: url(/FundoLight1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-around;
+
+        width: 70%;
+    }
+    header nav li{
+        display: none;
+    }
+    header nav li ul a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:black;
+        font-weight: bold;
+    }
+    header label{
+        height: 20px;
+        width: 20px;
+        background-image: url(/forma-de-meia-lua.png) ;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+
+        transition: all .3s ease-in-out;
+    }
+
+    section{
+        height: 1000px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    #PrimeiraSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #PrimeiraSection h1{
+        font-size: 3em;
+        width: 70%;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    #PrimeiraSection a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+
+        padding: 6px;
+        border-radius: 10px;
+        border: white 1px solid;
+        box-shadow: 4px 4px 0 black;
+        position: relative;
+    }
+
+    #SegundaSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+    #SegundaSection h2{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+    }
+    #SegundaSection p{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+    }
+    #SegundaSection a{
+        margin: auto;
+        padding: 6px;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+
+
+
+    #TerceiraSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 700px;
+    }
+    
+    #TerceiraEsquerda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        margin: 10% 0 25% 0;
+    }
+    #TerceiraEsquerda h2{
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    #TerceiraEsquerda p{
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    #TerceiraEsquerda a{
+        margin: auto;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        padding: 6px;
+        background-color:black;
+    }
+
+
+    #TerceiraSection #TerceiraDireita{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row: auto;
+        gap: 2%;
+
+    }
+    #TerceiraSection #TerceiraDireita article{
+        display: grid;
+        grid-template-rows: 25% 25% 30% auto;
+        padding: 5%;
+    }
+    #TerceiraSection #TerceiraDireita article a{
+        display: grid;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    
+        border: 5px black solid;
+        border-radius: 30px;
+        box-shadow: 10px 15px 10px #000000 ;
+    
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+    
+        width: 20vw;
+        text-align: end;
+        align-items: end;
+        padding: 5%;
+    }
+    #TerceiraSection #TerceiraDireita article p{
+        text-align: start;
+        padding: 5%;
+        margin: 10% 0 0 0;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    #Carro{
+        background-image: url(/carro.jpg);
+        background-size: cover;
+        background-position:center ;
+    }
+    #Caminhao{
+        background-image: url(/caminhao.jpg);
+        background-size: cover;
+        background-position:center ;
+    }
+    #Navio{
+        background-image: url(/navio.jpg);
+        background-size: cover;
+        background-position:center ;
+    }
+
+    #QuartaSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        height: 1350px;
+        padding-bottom: 10%;
+    }
+
+    #QuartaSection article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    #QuartaSection p{
+        width: 80%;
+ 
+    }
+    #QuartaSection h4{
+        width: 80%;
+ 
+    }
+    #QuartaSection a{
+        color: white;
+        background-color: black;
+        padding: 6px;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+
+    #QuartaSection img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+
+    #QuintaSection{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 550px;
+    }
+    #QuintaSection article{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #QuintaSection article a{
+        color: black;
+    }
+
+    #QuintaSection img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 10% 0% 10% 0;
+        border: 5px black solid;
+        border-radius: 30px;
+        box-shadow: 10px 15px 10px #000000;
+    }
+    #QuintaSection p{
+        color: black;
+    }
+
+    #Economia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 700px;
+    }
+    #Economia div{
+        width: 80%;
+    }
+    #Economia div h2{
+        margin: 0 0 10% 0;
+    }
+    #Economia div p{
+        margin: 0 0 10% 0;
+        font-weight: bold;
+    }
+
+    #Economia img{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 10%;
+        color: white;
+        font-size: .7em;
+    }
+    #Noturno:checked ~ main #PrimeiraSection{
+        background-image: url(/FundoLight1.jpg);
+        background-attachment: fixed;
+        background-position: 10% 20%;
+        background-size: 300%;
+        transition: none;
+    }
+    
+}
+
+
+@media (max-height: 500px){
+
+    header{
+        height: 30px;
+    }
+
+    #TerceiraSection{
+        height:800px;
+    }
+
+    #QuartaSection{
+        display: grid;
+    
+        grid-template-areas: 
+        'h2 h2 h2'
+        'P P P'
+        'Article1 Article2 Article3';
+        margin: auto;
+    }
+    #QuartaSection p{
+        grid-area: P;
+        text-align: center;
+    }
+    #QuartaSection h2{
+        grid-area: h2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #QuartaSection article p{
+        height: 200px;
+        margin-top: 10px;
+    }
+    #QuartaSection article {
+        height: 500px;
+    }
+    #QuartaSection #ArtcFinal1{
+        grid-area: Article1;
+    }
+    #QuartaSection #ArtcFinal2{
+        grid-area: Article2;
+    }
+    #QuartaSection #ArtcFinal3{
+        grid-area: Article3;
+    }
+
+    #QuintaSection{
+        height: 650px;
+    }
+    #QuintaSection a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #Economia{
+        height: 450px;
+    }
+}
