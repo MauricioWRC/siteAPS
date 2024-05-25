@@ -1,0 +1,72 @@
+#Noturno:checked ~ main header label{
+    background-image: url(/ensolarado.png);
+    width: 20px;
+    border: black 1px solid;
+    border-radius: 50%;
+    background-color: white;
+}
+#Noturno:checked ~ main{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #95f4ad;
+}
+#Noturno:checked ~ main section{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+#Noturno:checked ~ main #QuartaSection article a p{
+        color: white;
+    }
+#Noturno:checked ~ main header{
+    backdrop-filter: blur(10px);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#Noturno:checked ~ main header nav li ul a{
+    color: #95f4ad;
+}
+
+
+#Noturno:checked ~ main #PrimeiraSection a{
+    background-color: white;
+    color: black;
+}
+#Noturno:checked ~ main #TerceiraSection{
+    background: none;
+}
+#Noturno:checked ~ main #SegundaSection a{
+    background: white;
+    color: black;
+}
+#Noturno:checked ~ main #TerceiraSection div #bg{
+    background: white;
+    color: black;
+}
+
+#Noturno:checked ~ main #SegundaSection{
+    background: none;
+}
+
+#Noturno:checked ~ main #QuartaSection article{
+    border: 2px white solid;
+}
+#Noturno:checked ~ main #QuartaSection article a{
+    color: white;
+}
+#Noturno:checked ~ main #QuartaSection article .BtnFim{
+    color:black;
+    background-color: white;
+}
+#Noturno:checked ~ main #QuintaSection article a{
+    color: white;
+}
+#Noturno:checked ~ main #QuintaSection article a p{
+    color: #95f4ad;
+}
+#Noturno:checked ~ main #Economia div{
+    border-right: white 8px solid;
+}
+#Noturno:checked ~ footer{
+    border-top: 2px white solid;    ;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
