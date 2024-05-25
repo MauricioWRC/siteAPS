@@ -11,7 +11,7 @@
 
 @media (min-width:800px){
     body{
-        background-image: url(/FundoLight1.jpg);
+        background-image: url(/icones/FundoLight1.jpg);
         background-attachment: fixed;
         background-position: 0vh -50vh;
         background-size: 105%;
@@ -38,7 +38,7 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-image: url(/FundoLight1.jpg);
+        background-image: url(/IMG/FundoLight1.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -66,7 +66,7 @@
     header label{
         height: 20px;
         width: 20px;
-        background-image: url(/forma-de-meia-lua.png) ;
+        background-image: url(/icones/forma-de-meia-lua.png) ;
         background-position: center;
         background-size: cover;
         cursor: pointer;
@@ -94,7 +94,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 5%;
-    background-image: url(/FundoLight1.jpg);
+    background-image: url(/IMG/FundoLight1.jpg);
     background-position: 0vh -50vh;
     background-attachment: fixed;
     
@@ -223,17 +223,17 @@
 }
 
 #Carro{
-    background-image: url(/carro.jpg);
+    background-image: url(/IMG/carro.jpg);
     background-size: cover;
     background-position:center ;
 }
 #Caminhao{
-    background-image: url(/caminhao.jpg);
+    background-image: url(/IMG/caminhao.jpg);
     background-size: cover;
     background-position:center ;
 }
 #Navio{
-    background-image: url(/navio.jpg);
+    background-image: url(/IMG/navio.jpg);
     background-size: cover;
     background-position:center ;
 }
