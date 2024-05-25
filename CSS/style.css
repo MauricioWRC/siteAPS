@@ -227,11 +227,7 @@
     background-size: cover;
     background-position:center ;
 }
-#Caminhao{
-    background-image: url(/IMG/caminhao.jpg);
-    background-size: cover;
-    background-position:center ;
-}
+
 #Navio{
     background-image: url(/IMG/navio.jpg);
     background-size: cover;

@@ -8,11 +8,35 @@
     <link rel="stylesheet" href="CSS/dark.css">
     <title>Transportes Sustentáveis - ESG</title>
 </head>
-<body>
+<style>
+    #Noturno:checked ~ main header label{
+    background-image: url(icones/ensolarado.png);
+    width: 20px;
+    border: black 1px solid;
+    border-radius: 50%;
+    background-color: white;
+    }
+    header label{
+        height: 20px;
+        width: 20px;
+        background-image: url(icones/forma-de-meia-lua.png) ;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+
+        transition: all .3s ease;
+    }
+</style>
+<body style="background-image: url(/icones/FundoLight1.jpg);
+background-attachment: fixed;
+background-position: 0vh -50vh;
+background-size: 105%;">
     <input type="checkbox" name="" id="Noturno">
 <main>
     <header>
-        <a href="#PrimeiraSection" id="Logo"></a>
+        <a href="#PrimeiraSection" id="Logo" style="background-image: url(/IMG/FundoLight1.jpg);
+        background-position: center;
+        background-size: cover;"></a>
         <nav>
             <li>
                 <ul><a href="#PrimeiraSection">Inicio</a></ul>
@@ -47,15 +71,22 @@
         </div>
         <div id="TerceiraDireita">
             <article>
-                <a id="Carro">Carro</a>
+                <a id="Carro" style="background-image: url(/IMG/carro.jpg);
+                background-size: cover;
+                background-position:center ;">Carro</a>
                 <p>Os carros de passeio são os veículos mais poluentes, respondendo por 45% das emissões de CO2.</p>
             </article>
             <article>
-                <a id="Caminhao">Caminhão</a>
+                <a id="Caminhao" style="
+                    background-image: url(IMG/caminhao.jpg);
+                    background-size: cover;
+                    background-position:center ;">Caminhão</a>
                 <p>Em segundo lugar, estão os caminhões, com 21% da poluição por CO2.</p>
             </article>
             <article>
-                <a id="Navio">Navio</a>
+                <a id="Navio" style="background-image: url(/IMG/navio.jpg);
+                background-size: cover;
+                background-position:center ;">Navio</a>
                 <p>Já os navios são responsáveis por 11% das emissões por CO2.</p>
             </article>
         </div>
