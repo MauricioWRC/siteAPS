@@ -228,6 +228,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 5%;
+        width: 95%;
     }
 
     #QuartaSection p{
@@ -356,6 +357,7 @@
     }
     #QuartaSection article {
         height: 500px;
+        
     }
     #QuartaSection #ArtcFinal1{
         grid-area: Article1;
@@ -370,6 +372,7 @@
     #QuintaSection{
         height: 650px;
     }
+
     #QuintaSection a{
         display: flex;
         flex-direction: column;
